@@ -1,0 +1,237 @@
+body{
+    margin:0;
+}
+.containerclass{
+    background-image: url('./download.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:100% 100% ;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 5%;
+    padding: 0%;
+}
+.containerclass img{
+height: 30%;
+width: 30%;
+padding: 5% 3%;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    color: black;
+    padding: 10px;
+}
+
+.main{
+    display: flex;
+    padding:0 20px 0 0;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.button{
+    text-decoration:none;
+    font-size:1.2rem;
+    font-weight:600;
+   
+    color:black;
+    transition:text-decoration 2s;
+    padding: 10%;
+
+}
+
+.button:hover{
+    text-decoration:underline;
+}
+.cont1{
+    padding:0 0 0 20px;
+    font-size: 1.7rem;
+
+}
+.cont2 > img{
+    height: 80%;
+    width: 80%;
+    border-radius: 60%;
+
+}
+.cont3{
+    padding: 30px;
+   
+}
+.main1{
+    margin-bottom: 10%;
+    color: palevioletred;
+}
+.head1{
+    margin-bottom: 5%;
+}
+.tail{
+    margin-bottom: 5%;
+}
+.button2{
+    height: 40px;
+    width: 120px;
+    background-color: palevioletred;
+    border: none;
+    border-radius: 5%;
+    text-align: center;
+    transition: text-decoration 2s;
+    cursor: pointer;
+}
+.button2 :hover{
+text-decoration:underline;
+}
+
+.cont4{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+   
+}
+.cont4 > img{
+width:70%;
+/* height:70%;  */
+
+}
+
+.container2{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  
+   margin-bottom: 5%;
+    
+}
+@media(max-width:703px){
+    .container2{
+        display:block;
+    }
+}
+
+.hiii{
+text-align: center;
+    margin-bottom: 7%;
+  
+  }
+  .hi{
+      text-align: center;
+      margin-bottom: 7%;
+  }
+  .pricing-container {
+      display: flex;
+      flex-wrap:wrap;
+      justify-content: center;
+      align-content: center;
+     
+      gap:1.5rem;
+    }
+  
+    .pricing-plan {
+    
+      width: 300px;
+      height:300px;
+      padding: 20px;
+      background-color: #f2f2f2;
+      border-radius: 5px;
+      text-align: center;
+    }
+  
+    .plan-title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+  
+    .plan-price {
+      font-size: 20px;
+      font-weight: 400;
+      margin-bottom: 10px;
+    }
+  
+    .plan-features {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+  
+    .plan-features li {
+      margin-bottom: 20px;
+    }
+  
+    .plan-button {
+      padding: 10px;
+      background-color: palevioletred;
+      color: #fff;
+      border-radius: 5px;
+      border: none;
+      cursor: pointer;
+      position: relative;
+      text-align: center;
+      transition: 0.4s all;
+      text-decoration: none;
+      overflow: hidden;
+    }
+    .plan-button :hover{
+        background-color: white;
+        box-shadow: 0px 2px 10px 5px #97b1bf;
+        color: black;
+    }
+    .plan-button :focus{
+        outline:none;
+    }
+    iframe{
+        height:100%;
+        width:80%;
+        margin-right:20px;
+
+    }
+  
+ 
+      .image{
+          margin: 0 auto;
+     }
+     .image>img{
+        width:50px;
+        height:50px;
+     }
+      .plan-price2 {
+        font-size: 40px;
+        font-weight: 400;
+        margin-bottom: 10px;
+      }
+   
+      .footer-container{
+        
+        background-color: palevioletred;
+        padding: 20px 0 20px 20px ;
+        margin-top: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-content:center;
+        flex-wrap:wrap;
+    }
+    .socialicons{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        gap: 30px;
+        flex-wrap:wrap;
+       
+    }
+    .socialicons a i{
+    font-size: 3rem;
+    color: black;
+    opacity: 0.9;
+    }
+    .socialicons :hover{
+        background-color: white;
+        transition: 0.5s;
+    }
+    .socialicons :hover{
+        color:white;
+        transition: 0.5;
+    }
+   
