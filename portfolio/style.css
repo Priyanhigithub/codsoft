@@ -1,0 +1,189 @@
+.box > h4{
+margin-left: 20%;
+font-size: 50%;
+}
+*{
+    padding:0%;
+    margin:0%;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+.containts{
+    padding: 10px;
+}
+.button{
+    text-decoration:none;
+    font-size:1.2rem;
+    font-weight:600;
+   
+    color:black;
+    transition:text-decoration 2s;
+
+}
+
+.button:hover{
+    text-decoration:underline;
+}
+.box{
+    display: flex;
+    justify-content:flex-start;
+}
+.container{
+    margin: 10% 0;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.cont1{
+    text-align: start;
+    padding-right: 10%;
+
+
+} .cont1 > h1{
+    margin-bottom: 2%;
+}
+.head{
+    padding-bottom: 5%;
+}
+.head2{
+    padding-bottom: 5%;
+}
+.para{
+    padding-bottom: 5%;
+}
+  
+
+img{
+    height: 250px;
+    width: 200px;
+    border-radius: 15px 50px;
+}
+
+.button1{
+    height: 40px;
+    width: 120px;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5%;
+    text-align: center;
+}
+.Hi{
+    text-align: center;
+    margin:auto;
+}
+span{
+    color: blueviolet;
+}
+.Education{
+    display:flex;
+    justify-content: center;
+    padding: 0 5% 5% 5%;
+    gap: 10%;
+    font-weight: 700;
+    
+}
+.box2{
+    padding:0 0 0 5%;
+    color: blueviolet;
+    font-weight: bold;
+}
+.main{
+    padding: 0 0 0 5%;
+    color: blueviolet;
+    font-weight: 100%;
+    font-size:3rem;
+    margin-bottom: 5%;
+}
+
+.super-grid-container{
+    display: flex;
+    justify-content: center;
+}
+.grid-container{
+  padding:25px;
+
+}
+.grid{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap:100px;
+    
+}
+.grid-item{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-image:linear-gradient(to right,blueviolet,rgb(197, 161, 230));
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-content: center;
+    padding: 10%;
+    color: white;
+}
+.one {
+   grid-area:1/2/2/3;
+   background-color:blueviolet;
+}
+.two{
+    grid-area:2/1/3/2;
+   background-color:blueviolet;
+}
+.three{
+    grid-area:2/2/3/3;
+   background-color:blueviolet;
+}
+.four{
+    grid-area:2/3/3/4;
+   background-color:blueviolet;
+}
+.five{
+    grid-area:3/2/4/3;
+   background-color:blueviolet;
+}
+.rotate{
+    display:flex;
+   justify-content:space-evenly;
+    gap:20px;
+    cursor: pointer;
+    transition: 0.6s ease-in-out;
+    margin-bottom: 7%;
+}
+.rotate :hover{
+    transform: scale(1.2);
+}
+footer{
+    background-color: blueviolet;
+}
+.footer-container{
+    width: 100%;
+    height: 200px;
+    padding: 70px 30px 20px;
+    margin-top: 70px;
+}
+.socialicons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border-radius: 50%;
+}
+.socialicons a i{
+font-size: 3rem;
+color: black;
+opacity: 0.9;
+}
+.socialicons :hover{
+    background-color: white;
+    transition: 0.5s;
+}
+.socialicons :hover{
+    color:white;
+    transition: 0.5;
+}
+@media screen (max-width:700px){
+
+}
